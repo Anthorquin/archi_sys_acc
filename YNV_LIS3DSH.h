@@ -23,21 +23,22 @@
 #define LIS3DSH_CTRLREG4_XEN	((uint8_t)0x01)		//X enable
 #define LIS3DSH_CTRLREG4_YEN	((uint8_t)0x02)		//Y enable
 #define LIS3DSH_CTRLREG4_ZEN	((uint8_t)0x04)		//Z enable
-#define LIS3DSH_BDU				((uint8_t)0x08)		//BDU activate => don't update data when aren't read
+#define LIS3DSH_BDU		((uint8_t)0x08)		//BDU activate => don't update data when aren't read
 
 //CTRL_REG5
 #define LIS3DSH_CTRLREG5_ADDR	0x24
-//Full scale (CTRL_REG5)
+//Full scale
 #define LIS3DSH_CTRLREG5_2G		((uint8_t)0x00)
 #define LIS3DSH_CTRLREG5_4G		((uint8_t)0x08)
 #define LIS3DSH_CTRLREG5_6G		((uint8_t)0x10)
 #define LIS3DSH_CTRLREG5_8G		((uint8_t)0x18)
-#define LIS3DSH_CTRLREG5_16G	((uint8_t)0x20)
+#define LIS3DSH_CTRLREG5_16G		((uint8_t)0x20)
 
 
 //OUT_X
 #define LIS3DSH_OUT_X_L_ADDR	0x28
 #define LIS3DSH_OUT_X_H_ADDR	0x29
+
 //OUT_Y
 #define LIS3DSH_OUT_Y_L_ADDR	0x2A
 #define LIS3DSH_OUT_Y_H_ADDR	0x2B
